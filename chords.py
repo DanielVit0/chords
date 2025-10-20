@@ -34,6 +34,21 @@ while i <= 7:
             acorde = 'Bm'
         elif i == 7:
             acorde = 'Cº'
+    if nota == 'E' :
+        if i == 1:
+            acorde = 'E'
+        elif i == 2:
+            acorde = 'F#m'
+        elif i == 3:
+            acorde = 'G#m'
+        elif i == 4:
+            acorde = 'A'
+        elif i == 5:
+            acorde = 'B'
+        elif i == 6:
+            acorde = 'C#m'
+        elif i == 7:
+            acorde = 'D#º'
         
     print(f'{i} > {acorde}')
     i += 1
