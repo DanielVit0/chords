@@ -34,6 +34,81 @@ while i <= 7:
             acorde = 'Bm'
         elif i == 7:
             acorde = 'Cº'
+    if nota == 'E' :
+        if i == 1:
+            acorde = 'E'
+        elif i == 2:
+            acorde = 'F#m'
+        elif i == 3:
+            acorde = 'G#m'
+        elif i == 4:
+            acorde = 'A'
+        elif i == 5:
+            acorde = 'B'
+        elif i == 6:
+            acorde = 'C#m'
+        elif i == 7:
+            acorde = 'D#º'
+    if nota == 'F' :
+        if i == 1:
+            acorde = 'F'
+        elif i == 2:
+            acorde = 'Gm'
+        elif i == 3:
+            acorde = 'Am'
+        elif i == 4:
+            acorde = 'Bb'
+        elif i == 5:
+            acorde = 'C'
+        elif i == 6:
+            acorde = 'Dm'
+        elif i == 7:
+            acorde = 'Eº'
+    if nota == 'G' :
+        if i == 1:
+            acorde = 'G'
+        elif i == 2:
+            acorde = 'Am'
+        elif i == 3:
+            acorde = 'Bm'
+        elif i == 4:
+            acorde = 'C'
+        elif i == 5:
+            acorde = 'D'
+        elif i == 6:
+            acorde = 'Em'
+        elif i == 7:
+            acorde = 'F#º'
+    if nota == 'A' :
+        if i == 1:
+            acorde = 'A'
+        elif i == 2:
+            acorde = 'Bm'
+        elif i == 3:
+            acorde = 'C#m'
+        elif i == 4:
+            acorde = 'D'
+        elif i == 5:
+            acorde = 'E'
+        elif i == 6:
+            acorde = 'F#m'
+        elif i == 7:
+            acorde = 'G#º'
+    if nota == 'B' :
+        if i == 1:
+            acorde = 'B'
+        elif i == 2:
+            acorde = 'C#m'
+        elif i == 3:
+            acorde = 'D#m'
+        elif i == 4:
+            acorde = 'E'
+        elif i == 5:
+            acorde = 'F#'
+        elif i == 6:
+            acorde = 'G#m'
+        elif i == 7:
+            acorde = 'A#º'
         
     print(f'{i} > {acorde}')
     i += 1
